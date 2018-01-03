@@ -1,0 +1,291 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body{
+    font-family: 'Droid Arabic Kufi', serif;
+
+}
+
+            /*start up bar*/
+.up-bar{
+    background-color: #eaeaea;
+    font-size: 15px;
+}
+.up-bar p{
+    float: right;
+    color: black;
+}
+.up-bar p span i{
+    color: #ff9933;
+}
+.upper{
+    direction: rtl;
+}
+.upper i{
+   font-size: 18px;
+    border: 1px solid #ff9933;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: transparent;
+    color: #ff9933;
+    transition: all .6s ease;
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.upper h5{
+   color: #bbbbbb;
+}
+.tech{
+    padding-top: 10px;
+    text-align: center;
+}
+.upper a{
+    color: black;
+}
+.tech-img{
+    position: absolute;
+}
+.tech-p p{
+    margin-right: 30px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+
+
+            /*finish up bar*/
+            /* start navbar*/
+
+.navbar{
+    background-color: #3b3d45!important;
+    border-radius: 0px;
+    border: 0px;
+    margin-bottom: 0px;
+}
+.navbar-header a{
+    background-color: orange!important;
+    border-radius: 50%;
+}
+.navbar-header i{
+    color: white;
+    font-size: 20px;
+}
+.nav li a{
+    color:#ffffff!important;
+}
+.nav li a:hover , .nav li a:focus ,.navbar-inverse .navbar-nav>.active>a{
+    background-color: #ff9933!important;
+    transform: skewX(-20deg);
+}
+
+img {
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 767px) {
+    .nav li {float: right;};
+
+}
+/*finish navbar*/
+/*start pic*/
+.pic{
+    background: url(../images/b2.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pich{
+    color: white;
+    padding-top: 7%;
+    text-align: center;
+
+}
+.pich h1{
+     font-weight: bold;
+}
+/*finish img under nav*/
+/*start divs*/
+.divbody{
+    margin-top: 50px;
+    text-align: center;
+}
+.divbord{
+    border: 2px solid #ff9933;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.divin{
+    padding: 10px;
+}
+.divim{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+.divim img{
+    padding: 10px;
+}
+.divin h4{
+    font-weight: bold;
+    color: black;
+}
+.divin p{
+    color: #696969f2;
+    padding: 5px;
+}
+.more{
+    position: relative;
+    margin-bottom: -6px;
+}
+.divlink{
+     position: absolute;
+     width: 100%;
+     bottom: 3px;
+}
+.divlink a{
+   color: white;
+}
+
+/*finish divs*/
+/*start upfooter*/
+.upfooter{
+   margin-top: 20px;
+   position: relative;
+   background-image: url(../images/orange_2.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: -12px;
+}
+.upfootercon{
+    text-align: center;
+    padding-right: 15%;
+    color: #ffedde;
+    padding: 40px 10%;
+}
+.upfootercon h1{
+    font-weight: bold;
+}
+.upfootercon p{
+    padding: 20px 100px;
+    border: 2px solid #ffedde;
+    font-size: 18px;
+}
+.call{
+    position: absolute;
+    bottom: 17%;
+    width: 80%;
+}
+.call a{
+    padding: 0px 20px;
+    color: #ffedde;
+    background-color: #3b3d45;
+    border-radius: 5px;
+}
+@media screen and (max-width: 767px) {
+     .call{bottom: 15%;}
+     .upfootercon p{padding: 20px 10px;}
+}
+/* finish upfooter*/
+/* start footer*/
+footer{
+    background-color: #3b3d45;
+    position: relative;
+    padding-top: 150px;
+}
+footer ul{
+    list-style-type: none;
+    padding-right: 0px;
+}
+footer h1{
+     color: #ff9933;
+     font-weight: bold;
+}
+footer ul li i{
+     color: #898a8c;
+     padding-left: 10px;
+}
+footer ul li .fa{
+     font-size: 20px;
+     color: white;
+}
+footer ul li a{
+     color:#939496;
+    font-size: 18px;
+}
+footer ul li a:hover{
+    color: white;
+}
+footer ul li a ,footer ul li p{
+     color: #898a8c;
+    display: inline;
+}
+
+.loc li{
+     padding-bottom: 10px;
+}
+footer p{
+     color: #898a8c;
+    padding-top: 10px;
+    text-align: right;
+}
+.imm{
+    text-align: center;
+}
+.callus{
+    position: absolute;
+    top: -15px;
+    background-color: white;
+    left: 20px;
+    width: 300px;
+    height: 75px;
+    transform: skewX(-20deg);
+
+
+}
+.border{
+    position: absolute;
+    background-color: white;
+    top: -15px;
+    left: 0px;
+    width: 300px;
+}
+.border h4{
+    font-weight: bold;
+}
+.border h4 span{
+     font-size: 15px;
+     font-weight: 300;
+}
+.border h3{
+    margin-top: 0px;
+    color: #ff9933;
+    letter-spacing: 10px;
+    font-weight: bold;
+
+}
+.finish{
+     background-color: black;
+}
+.finish i{
+     background-color: white;
+     color: #ff9933;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.f2{
+   background-color:  #ff9933;
+   color: white;
+   transform: skewX(-20deg);
+    padding: 5px;
+}
+
+@media screen and (min-width: 1200px){
+ footer .col-lg-3{float: right;}
+}
